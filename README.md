@@ -1,16 +1,35 @@
-# untitled
+**Flutter/Dart Versions**
 
-A new Flutter project.
+Flutter version: 3.35.4
+Dart version: 3.9.2 
 
-## Getting Started
+**How to Run?
+List of commands**
 
-This project is a starting point for a Flutter application.
+1.git clone https://github.com/Mahalakshmi-M0709/Flutter_Assignment.git
+2.cd Flutter_Assignment/Smart_Home_Pages
+3.flutter pub get
+4.flutter run
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Project Structure and Notes**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/ - Main source folder.
+
+lib/schedule.dart - Contains SchedulePage with calendar view and navigation.
+
+lib/daily_usage.dart - Displays daily electricity usage graph and consumption list.
+
+lib/main.dart - Entry point with app setup, theme, and main navigation.
+
+lib/Smart_Home_Pages/ - Secondary folder for other features/modules (if any).
+
+**Packages Used**
+
+flutter/material.dart - Flutter SDK core widgets.
+
+table_calendar - Calendar UI for scheduling.
+
+fl_chart - For displaying line and bar charts.
+
+Other Flutter standard dependencies.
